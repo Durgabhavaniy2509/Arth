@@ -1,3 +1,8 @@
+.hero-left > img {
+  width: 350px;
+}
+
+
 .hero-stat {
   margin-right: 100px;
 }
