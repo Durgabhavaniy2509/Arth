@@ -71,6 +71,15 @@
   font-weight: bold;
   font-size: 1.5rem;
 }
+.tertiaryText {
+  color: #27c47b;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.quadText {
+  color: black;
+  font-size: 1rem;
+}
 /* media queries */
 @media (min-width: 1536px) {
   .innerWidth {
@@ -81,7 +90,7 @@
 
 @media (min-width: 640px) {
   .paddings {
-    padding: 4rem;
+    padding: 3rem;
   }
 }
 
