@@ -35,3 +35,14 @@
 .hero-pack, .hero-pack1 {
   margin-top: 25px;
 }
+
+.row {
+  display: flex;
+}
+.customer {
+  background-color: #EAF1F1;
+  width: 125px;
+  height: 125px;
+  border-radius: 10px;
+  text-align: center; 
+}

@@ -5,6 +5,7 @@ import CountUp from 'react-countup'
 const Home = () => {
   return (
     <section>
+      {/* About section */}
       <div className=" flexCenter1 paddings innerWidth hero-aboutUs">
         <div className='hero-left'>
           <img src="\Images\Aqua Raffles hotel.avif" alt="" />
@@ -15,6 +16,7 @@ const Home = () => {
         </div>
       </div>
 
+      {/* Stat section */}
       <div className = 'flexCenter hero-stats'>
           <div className = 'flexColCenter hero-stat'>
             <img src="\Icons\completed-task.png" alt="" />
@@ -38,7 +40,8 @@ const Home = () => {
             <span className='primaryText'>Countries</span>
           </div>
        </div>
-
+      
+      {/* How we work section */}
        <div className="flexCenter1 paddings innerWidth hero-work">
         <div className='hero-left'>
           <div className='tertiaryText'>HOW WE WORK</div>
@@ -66,9 +69,28 @@ const Home = () => {
             </div>
           </div>
         </div>
-       </div>
-
-
+      </div>
+      
+      {/* our customers section */}
+      <div className="flexCenter1 paddings innerWidth hero-customers">
+        <div className='flexColCenter hero-left gap'>
+            <div className="flexCenter row">
+              <div className='flexCenter customer'>Design Consultants</div>
+              <div className='flexCenter customer'>BIM Managers</div>
+              <div className='flexCenter customer'>General Contractors</div>
+            </div>
+            <div className="flexCenter row">
+              <div className='flexCenter customer'>Trade Contractors</div>
+              <div className='flexCenter customer'>Facility Management Teams</div>
+              <div className='flexCenter customer'>Developers /Owners</div>
+            </div>
+        </div>
+        <div className='hero-right'>
+          <div className='tertiaryText'>OUR CUSTOMERS</div>
+          <div className='quadText hero-text'>At Arth, we’ve had the privilege of working alongside industry leaders and visionaries. Our <br /> customers include top-tier professionals.Each of these partners values our ability to <br />implement efficient processes that mitigate risk, reduce costs, and drive project success.</div>
+        </div>
+      </div>
+  
     </section>
   )
 }
