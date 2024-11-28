@@ -1,0 +1,18 @@
+.footer {
+  background-color: #272343;
+}
+
+
+.footer-info {
+  width: 200px;
+}
+.footer-head {
+  justify-content: space-between !important;
+}
+.address {
+  margin-top: 15px;
+}
+.img-corretion {
+  align-items: center;
+  text-align: center;
+}

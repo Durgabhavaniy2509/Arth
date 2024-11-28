@@ -80,6 +80,14 @@
   color: black;
   font-size: 1rem;
 }
+.whiteText {
+  color: #fffffe;
+  font-size: 1rem;
+}
+.text-bold {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
 /* media queries */
 @media (min-width: 1536px) {
   .innerWidth {

@@ -114,7 +114,7 @@ const Home = () => {
           <div className='test-symbol'>
             <span>&#39;</span><span>&#39;</span>
           </div>
-          <div>Digitizing the construction documentation and monitoring has helped the TPL team improve on-site efficiency. Quantification accuracy and progress tracking has also helped to procure JIT and eased bill verification. A Big Cheers to Arth team. We wish them the best on digitizing the Construction Industry.</div>
+          <div>"Digitizing the construction documentation and monitoring has helped the TPL team improve on-site efficiency. Quantification accuracy and progress tracking has also helped to procure JIT and eased bill verification. A Big Cheers to Arth team. We wish them the best on digitizing the Construction Industry."</div>
           <div className='test-person'>- Mridul T, <br /> Head - TATA Projects Ltd. - Quality Services division</div>
         </div>
       </div>
