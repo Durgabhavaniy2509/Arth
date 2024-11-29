@@ -31,12 +31,14 @@
 }
 /* about us */
 .hero-aboutUs {
-  background-color: #f7f4e9;
+   background-color: #f7f4e9; 
+  /* background-color: 	#353935; */
 }
 .hero-left > img {
   width: 350px;
 }
 
+/* stats section */
 
 .hero-stat {
   margin-right: 100px;
@@ -49,6 +51,21 @@
   margin-top: 15px;
   line-height: 25px;
 }
+/* client segments */
+.client-proj {
+  font-size: 1.2rem !important;
+}
+.client-info {
+  font-size: 1rem !important;
+}
+.client {
+  width: 250px;
+  height: 300px;
+  align-items: center;
+  text-align: center;
+}
+
+/* How we work section */
 .hero-pack> img, .hero-pack1>img {
   width: 80px;
   height: 80px;
@@ -75,6 +92,7 @@
   margin-top: 25px;
 }
 
+/* our customers section */
 .row {
   display: flex;
 }

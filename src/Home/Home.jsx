@@ -21,6 +21,7 @@ const Home = () => {
 
   return (
     <section className='hero-aboutUs'>
+      {/* main section */}
       <div className='flexCenter1 paddings innerWidth about-arth'>
         <div className="hero-left primaryText main-head">PIONEERING <br />
               TECHNOLOGY IN <br />CONSTRUCTION</div>
@@ -72,6 +73,60 @@ const Home = () => {
           </div>
        </div>
       
+      {/* Client segments */}
+      <div className="flexCenter1 paddings innerWidth about-clients">
+        <div className='tertiaryText'>CLIENT SEGMENTS</div>
+        <div className='quadText'>At Arth, we work across a variety of sectors, ensuring that our expertise and processes drive success in each. Our core client segments include:</div>
+        <div className='client-right'>
+          <div className="flexCenter hero-stats">
+            <div className='flexColCenter hero-stat hero-pack client'>
+              <img src="\Icons\train.png" alt="" />
+              <span className='orangeText client-proj'>
+                Infrastructure
+                </span>
+              <span className='primaryText client-info'>Delivering large-scale projects like bridges, roads, metro stations, tunnels and utilities with precision and efficiency.</span>
+            </div>
+            <div className='flexColCenter hero-stat hero-pack client'>
+              <img src="\Icons\apartment.png" alt="" />
+              <span className='orangeText client-proj'>
+                High Rise Residential
+                </span>
+              <span className='primaryText client-info'>Streamlining complex residential developments to ensure timely and high-quality completion.</span>
+            </div>
+            <div className='flexColCenter hero-stat hero-pack client'>
+              <img src="\Icons\airport.png" alt="" />
+              <span className='orangeText client-proj'>
+                Airports
+                </span>
+              <span className='primaryText client-info'>Managing the complexities of airport projects, from construction and expansion to ensuring long-term operational efficiency and upkeep.</span>
+            </div>
+            </div>
+
+            <div className="flexCenter hero-stats">
+            <div className='flexColCenter hero-stat hero-pack client'>
+              <img src="\Icons\factory.png" alt="" />
+              <span className='orangeText client-proj'>
+                Commercial
+                </span>
+              <span className='primaryText client-info'>Providing comprehensive support throughout the lifecycle of office spaces, retail centers, and mixed-use developments, from construction to long-term maintenance and management.</span>
+            </div>
+            <div className='flexColCenter hero-stat hero-pack client'>
+              <img src="\Icons\hospital.png" alt="" />
+              <span className='orangeText client-proj'>
+                Health & Recreational
+                </span>
+              <span className='primaryText client-info'>Ensuring that hospitals, nursing homes, polyclinics, and recreational facilities meet modern standards for functionality and safety.</span>
+            </div>
+            <div className='flexColCenter hero-stat hero-pack client'>
+              <img src="\Icons\electric-factory.png" alt="" />
+              <span className='orangeText client-proj'>
+                Plants & Sub-stations
+                </span>
+              <span className='primaryText client-info'>Supporting critical infrastructure projects, ensuring that plants and energy substations are built and maintained to the highest standards, safeguarding long-term reliability and operational continuity.</span>
+            </div>
+            </div>
+        </div>
+      </div>
       {/* How we work section */}
        <div className="flexCenter1 paddings innerWidth hero-work">
         <div className='hero-left'>
