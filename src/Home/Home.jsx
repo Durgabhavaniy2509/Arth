@@ -1,10 +1,41 @@
 import React from 'react'
 import './Home.css'
 import CountUp from 'react-countup'
+import Arth from '../../Video/Arth.mp4';
+import { useState, useRef } from 'react';
 
 const Home = () => {
+  // const [videoSrc, setVideoSrc] = useState("Arth.mp4");
+  const videoRef = useRef(null); 
+  const [isPlaying, setIsPlaying] = useState(false); 
+  const handlePlayPause = () => {
+    if (videoRef.current) {
+      if (isPlaying) {
+        videoRef.current.pause();
+      } else {
+        videoRef.current.play();
+      }
+      setIsPlaying(!isPlaying); 
+    }
+  };
+
   return (
     <section className='hero-aboutUs'>
+      <div className='flexCenter1 paddings innerWidth about-arth'>
+        <div className="hero-left primaryText main-head">PIONEERING <br />
+              TECHNOLOGY IN <br />CONSTRUCTION</div>
+        <div className='hero-right'>
+          <video ref={videoRef} className="video" width="650" onClick={handlePlayPause}>
+          <source src={Arth} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        {!isPlaying && (
+          <button className="play-button" onClick={handlePlayPause}>
+            ▶
+          </button>
+        )}
+        </div>
+      </div>
       {/* About section */}
       <div className=" flexCenter1 paddings innerWidth hero-aboutUs">
         <div className='hero-left'>
