@@ -1,6 +1,7 @@
 .h-wrapper {
   /* background: #BDFBB1; */
-  background-color: #e3f6f5;
+  /* background-color: #e3f6f5; */
+  background-color: #4CAF50;
 }
 .h-container {
   padding-top: 1rem;
@@ -11,17 +12,20 @@
   gap: 2rem;
 }
 .h-menu > * {
-  color: black;
+  /* color: black; */
+  color: white;
   text-decoration: none;
 }
 
 .h-menu > *:hover {
   cursor: pointer;
-  color: blue;
+  /* color: blue; */
+  color: #FFD54F;
 }
 
 .h-logIn>a {
   text-decoration: none;
-  color: black;
+  /* color: black; */
+  color: white;
   margin-left: 1rem;
 }

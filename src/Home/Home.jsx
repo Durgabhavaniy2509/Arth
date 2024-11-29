@@ -4,7 +4,7 @@ import CountUp from 'react-countup'
 
 const Home = () => {
   return (
-    <section>
+    <section className='hero-aboutUs'>
       {/* About section */}
       <div className=" flexCenter1 paddings innerWidth hero-aboutUs">
         <div className='hero-left'>
@@ -91,30 +91,30 @@ const Home = () => {
         </div>
       </div>
   
-    <div className="paddings innerWidth testimonials">
-      <div className="tertiaryText">TESTIMONIALS</div>
+     <div className="paddings innerWidth testimonials">
+      <div className="tertiaryText">WHAT OUR CLIENTS SAY</div>
       <div className="tests">
         <div className='test'>
-          <div className='test-symbol'>
-            <span>&#39;</span><span>&#39;</span>
+          <div className='quote-icon'>
+            <img src="\Icons\quote.png" alt="" width={30}/>
           </div>
-          <div>"All departments and teams used to have their own information source and started over creating their own models, instead of reusing the information from other departments. With BIM we can see departments integrating, consulting each other and really collaborating. Arth has done a great job in making our process a really efficient one"</div>
+          <div>All departments and teams used to have their own information source and started over creating their own models, instead of reusing the information from other departments. With BIM we can see departments integrating, consulting each other and really collaborating. Arth has done a great job in making our process a really efficient one.</div>
           <div className='test-person'>- Gunesh Joshi, <br /> Senior Associate Director - CBRE</div>
         </div>
 
         <div className='test'>
-          <div className='test-symbol'>
-            <span>&#39;</span><span>&#39;</span>
+          <div className='quote-icon'>
+            <img src="\Icons\quote.png" alt="" width={30}/>
           </div>
-          <div>"The attention to detail and quality that Arth has shown is really great. It is always a pleasure working with a driven, energetic and smart team like Arth's"</div>
+          <div>The attention to detail and quality that Arth has shown is really great. It is always a pleasure working with a driven, energetic and smart team like Arth's.</div>
           <div className='test-person'>- Barclays Global <br /> Design Head</div>
         </div>
 
         <div className='test'>
-          <div className='test-symbol'>
-            <span>&#39;</span><span>&#39;</span>
+          <div className='quote-icon'>
+            <img src="\Icons\quote.png" alt="" width={30}/>
           </div>
-          <div>"Digitizing the construction documentation and monitoring has helped the TPL team improve on-site efficiency. Quantification accuracy and progress tracking has also helped to procure JIT and eased bill verification. A Big Cheers to Arth team. We wish them the best on digitizing the Construction Industry."</div>
+          <div>Digitizing the construction documentation and monitoring has helped the TPL team improve on-site efficiency. Quantification accuracy and progress tracking has also helped to procure JIT and eased bill verification. A Big Cheers to Arth team. We wish them the best on digitizing the Construction Industry.</div>
           <div className='test-person'>- Mridul T, <br /> Head - TATA Projects Ltd. - Quality Services division</div>
         </div>
       </div>
