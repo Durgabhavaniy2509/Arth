@@ -58,6 +58,66 @@ const OurFirm = () => {
             </div>
         </div>   
       </div>
+      {/* How we started */}
+      <div className='flexColCenter tertiaryText'>HOW WE STARTED</div>
+      <div className="timeline">
+        <div className="history-container left-container">
+          <img src="\Icons\rocket-lunch.png" alt="" />
+          <div className="text-box">
+            <small>2013</small>
+            <p>Arth embarked on its journey with a clear mission: to apply proven design and build consultancy practices that bridge the gap between vision and reality</p>
+            <span className='left-container-arrow'></span>
+          </div>
+        </div>
+
+        <div className="history-container right-container">
+        <img src="\Icons\rocket-lunch.png" alt="" />
+          <div className="text-box">
+            <small>2015</small>
+            <p>we began integrating cutting-edge construction technologies, setting the stage for greater innovation</p>
+            <span className='right-container-arrow'></span>
+          </div>
+        </div>
+
+        <div className="history-container left-container">
+        <img src="\Icons\rocket-lunch.png" alt="" />
+          <div className="text-box">
+            <small>2016 to 2018</small>
+            <p>The company expanded into Hyderabad, Bangalore, and Dubai</p>
+            <span className='left-container-arrow'></span>
+          </div>
+        </div>
+
+
+        <div className="history-container right-container">
+        <img src="\Icons\rocket-lunch.png" alt="" />
+          <div className="text-box">
+            <small>2018</small>
+            <p>The opening of our Singapore office in 2018 marked a new chapter, where we continued to enhance service excellence.</p>
+            <span className='right-container-arrow'></span>
+          </div>
+        </div>
+
+
+        <div className="history-container left-container">
+        <img src="\Icons\rocket-lunch.png" alt="" />
+          <div className="text-box">
+            <small>2019</small>
+            <p>we secured significant LTA and DfMA projects, cementing our role as a digitalization partner for modern construction</p>
+            <span className='left-container-arrow'></span>
+          </div>
+        </div>
+
+        <div className="history-container right-container">
+        <img src="\Icons\rocket-lunch.png" alt="" />
+          <div className="text-box">
+            <small>2022</small>
+            <p>we secured significant LTA and DfMA projects, cementing our role as a digitalization partner for modern construction</p>
+            <span className='right-container-arrow'></span>
+          </div>
+        </div>
+      </div>
+
       <Footer/>
     </section>
   )
