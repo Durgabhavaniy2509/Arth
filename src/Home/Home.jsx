@@ -3,6 +3,7 @@ import './Home.css'
 import CountUp from 'react-countup'
 import Arth from '../../Video/Arth.mp4';
 import { useState, useRef } from 'react';
+import Footer from '../Footer/Footer';
 
 const Home = () => {
   // const [videoSrc, setVideoSrc] = useState("Arth.mp4");
@@ -205,6 +206,7 @@ const Home = () => {
         </div>
       </div>
     </div>
+    <Footer/>
     </section>
   )
 }

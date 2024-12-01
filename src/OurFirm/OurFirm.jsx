@@ -1,10 +1,12 @@
 import React from 'react'
 import './OurFirm.css'
+import Footer from '../Footer/Footer'
 
 const OurFirm = () => {
   return (
     // values
-    <div className='flexColCenter paddings innerWidth arth-values'>
+    <section className='our-firm'>
+      <div className='flexColCenter paddings innerWidth arth-values'>
         <div className="flexCenter arth-vandm">
           <img src="\Images\arth elements logo.avif" alt="" width={150}  className='gap'/>
           <div className='flexCenter2 vandm gap'>
@@ -54,10 +56,10 @@ const OurFirm = () => {
                 </span>
               <span className='primaryText client-info'>Continuous learning and adaptability keep us at the forefront of industry advancements, ensuring sustained growth and improvement.</span>
             </div>
-        </div>
-
-
-    </div>
+        </div>   
+      </div>
+      <Footer/>
+    </section>
   )
 }
 
