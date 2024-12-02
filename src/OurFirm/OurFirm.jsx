@@ -54,7 +54,7 @@ const OurFirm = () => {
               <span className='orangeText client-proj'>
                 Learnability
                 </span>
-              <span className='primaryText client-info'>Continuous learning and adaptability keep us at the forefront of industry advancements, ensuring sustained growth and improvement.</span>
+              <span className='primaryText client-info'>Continuous learning and adaptability keep us at the forefront of industry advancements, ensuring sustained growth and improvement</span>
             </div>
         </div>   
       </div>
@@ -74,7 +74,7 @@ const OurFirm = () => {
         <img src="\Icons\rocket-lunch.png" alt="" />
           <div className="text-box">
             <small>2015</small>
-            <p>we began integrating cutting-edge construction technologies, setting the stage for greater innovation</p>
+            <p>We began integrating cutting-edge construction technologies, setting the stage for greater innovation</p>
             <span className='right-container-arrow'></span>
           </div>
         </div>
@@ -103,7 +103,7 @@ const OurFirm = () => {
         <img src="\Icons\rocket-lunch.png" alt="" />
           <div className="text-box">
             <small>2019</small>
-            <p>we secured significant LTA and DfMA projects, cementing our role as a digitalization partner for modern construction</p>
+            <p>We secured significant LTA and DfMA projects, cementing our role as a digitalization partner for modern construction</p>
             <span className='left-container-arrow'></span>
           </div>
         </div>
@@ -112,7 +112,7 @@ const OurFirm = () => {
         <img src="\Icons\rocket-lunch.png" alt="" />
           <div className="text-box">
             <small>2022</small>
-            <p>we secured significant LTA and DfMA projects, cementing our role as a digitalization partner for modern construction</p>
+            <p>We secured significant LTA and DfMA projects, cementing our role as a digitalization partner for modern construction</p>
             <span className='right-container-arrow'></span>
           </div>
         </div>
