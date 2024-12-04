@@ -1,6 +1,8 @@
 import React from 'react'
 import './OurFirm.css'
 import Footer from '../Footer/Footer'
+import { Members } from '../OurFirmComponents/Teamdata'
+import { MemberCard } from '../OurFirmComponents/Team'
 
 const OurFirm = () => {
   return (
@@ -118,6 +120,24 @@ const OurFirm = () => {
         </div>
       </div>
 
+      {/* Management section */}
+       <section className="management-section">
+        <div className="container">
+          <div className="section-header">
+            <h2 className="section-title">Our Leadership Team</h2>
+            <p className="section-description">
+              Meet the visionaries behind our success. Our leadership team brings together
+              decades of experience and a shared commitment to excellence.
+            </p>
+          </div>
+          
+          <div className="members-grid">
+            {Members.map((member) => (
+              <MemberCard key={member.id} member={member} />
+            ))}
+          </div>
+        </div>
+      </section> 
       <Footer/>
     </section>
   )
