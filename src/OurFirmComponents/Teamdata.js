@@ -6,6 +6,7 @@ export const Members = [
     name: 'KAILASH CHANDOLA',
     designation: 'CEO, CO-FOUNDER',
     image: '/Images/founder.jpg',
+    // image: '/Images/founder.jpg',
     bio: 'Kailash Chondala, CEO and Co-Founder of Arth Design Build. He is a trailblazing leader and IIT graduate (Class of 2010) with a passion for innovation and technology. Renowned for his visionary mindset, Kailash has transformed Arth into a powerhouse of cutting-edge solutions in the construction and design industry. With an unrelenting drive to build technical excellence, he has redefined industry standards, inspiring his team to push boundaries and achieve extraordinary success.',
     email: 'kailash@arthdesignbuild.com',
     linkedin: 'https://www.linkedin.com/in/kailashchandola/'

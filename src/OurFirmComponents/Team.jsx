@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X,Mail } from 'lucide-react';
+import { X,Mail, Linkedin } from 'lucide-react';
 import './Team.css';
 
 export function MemberCard({ member }) {
@@ -19,7 +19,7 @@ export function MemberCard({ member }) {
         <div className="member-info-overlay">
           <div className='member-icon'>
             <h3 className="member-name">{member.name}</h3>
-            <img src="\Icons\plus.png" alt="" width={25}  className="member-image-container" onClick={() => setShowDetails(true)}/>
+            <img src="/Icons/plus.png" alt="" className="member-image-container plus-icon" onClick={() => setShowDetails(true)}/>
           </div>
           <p className="member-designation">{member.designation}</p>
         </div>
@@ -32,7 +32,8 @@ export function MemberCard({ member }) {
               onClick={() => setShowDetails(false)}
               className="modal-close"
             >
-              <X className="w-5 h-5" />
+              <X />
+              {/* <X className="w-5 h-5" /> */}
             </button>
 
             <div className="modal-grid">
@@ -52,7 +53,7 @@ export function MemberCard({ member }) {
                     href={`mailto:${member.email}`}
                     className="modal-link"
                   >
-                    <Mail className="w-5 h-5" />
+                    <Mail/>
                     <span>Email</span>
                   </a>
                   <a
@@ -61,8 +62,9 @@ export function MemberCard({ member }) {
                     rel="noopener noreferrer"
                     className="modal-link"
                   >
-                    <img src="\Icons\linkedin.png" className="w-5 h-5" alt="" width={25}/>
+                    {/* <img src="/Icons/linkedin.png" alt="" width={25}/> */}
                     {/* <Mail className="w-5 h-5" /> */}
+                    <Linkedin/> 
                     <span>LinkedIn</span>
                   </a>
                 </div>

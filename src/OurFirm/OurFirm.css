@@ -1,6 +1,7 @@
 .our-firm {
   padding: 0;
 }
+/* values */
 .vandm {
   width: 200px;
   background-color: #e3f6f5;
@@ -16,6 +17,9 @@
   flex-wrap: nowrap;
   margin: 25px !important;
 }
+.values-heading p{
+  font-size: 22px;
+}
 .client {
   margin: 25px !important;
   transition: transform 0.5s ease-in-out;
@@ -27,6 +31,11 @@
   margin-top: 30px;
 }
 
+@media (min-width: 300px) and (max-width: 1140px) {
+  .values {
+    flex-wrap: wrap;
+  }
+}
 /* Journey section */
 .journey-section {
   margin-bottom: 40px;

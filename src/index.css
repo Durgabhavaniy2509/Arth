@@ -63,6 +63,13 @@
   margin-left: 20px;
   row-gap: 0.5rem;
 }
+.flexColCenter1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 2rem;
+}
 .secondaryText {
   color: rgb(140, 139, 139);
   font-size: 0.9rem;

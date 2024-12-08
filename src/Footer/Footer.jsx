@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer = () => {
   return (
     <section className='footer'>
-      <div className=" flexCenter paddings innerWidth footer-head">
+      <div className=" flexCenter1 paddings innerWidth footer-head">
         <div className='flexColStart footer-info'>
           <img src="\Images\Arth.webp" alt="" width={100}/>
           <div className='whiteText'> Arth's innovative, pioneering digital-first solutions are transforming the construction industry. <br /> <br /> We are committed to working with top-tier clients globally to help their business become more efficient while saving time and cost on-site.
@@ -42,7 +42,7 @@ const Footer = () => {
           </div>  
         </div>
 
-        <div className='flexColCenter'>
+        <div className='flexColCenter1'>
           <img src="\Images\map with pin.avif" alt=""  width={600} className='img-correction'/>
         </div> 
       </div>

@@ -4,12 +4,13 @@ import Footer from '../Footer/Footer'
 import { Members } from '../OurFirmComponents/Teamdata'
 import { MemberCard } from '../OurFirmComponents/Team'
 import Journey from '../OurFirmComponents/Journey'
+import '../OurFirmComponents/Team.css'
 
 const OurFirm = () => {
   return (
     // values
     <section className='our-firm'>
-      <div className='flexColCenter paddings innerWidth arth-values'>
+      <div className='flexColCenter1 paddings innerWidth arth-values'>
         <div className="flexCenter arth-vandm">
           <img src="\Images\arth elements logo.avif" alt="" width={150}  className='gap'/>
           <div className='flexCenter2 vandm gap'>
@@ -22,9 +23,13 @@ const OurFirm = () => {
           </div>
         </div>
 
-        <div className='tertiaryText flexCenter values-heading'>VALUES</div>
+        <div className=' flexColCenter1 values-heading'>
+          <div className='tertiaryText'>OUR CORE VALUES</div>
+            <p className='primaryText'>The principles that guide our journey and shape our culture</p>
+        </div>
+        
           <div className=" flexCenter values">
-            <div className='flexColCenter hero-stat hero-pack client'>
+            <div className='flexColCenter hero-stat hero-pack client each-value'>
               <img src="\Icons\teamwork.png" alt="" />
               <span className='orangeText client-proj'>
                 Inclusiveness
@@ -62,8 +67,10 @@ const OurFirm = () => {
         </div>   
       </div>
       {/* How we started */}
-      <div className='flexColCenter tertiaryText journey-section'>HOW WE STARTED</div>
-      <Journey/>
+      <div className='flexColCenter1'>
+        <div className='tertiaryText journey-section'>HOW WE STARTED</div>
+        <div className='flexColCenter1' ><Journey/></div>
+      </div>
       
 
       {/* Management section */}
