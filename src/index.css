@@ -140,3 +140,47 @@
   }
 }
 
+@media (min-width: 300px) and (max-width: 480px) {
+  .tertiaryText {
+    font-size: 24px;
+  }
+  .orangeText {
+    font-size: 14px;
+  }
+  .primaryText {
+    font-size: 13px;
+  }
+  .quadText {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .tertiaryText {
+    font-size: 26px;
+  }
+  .orangeText {
+    font-size: 16px;
+  }
+  .primaryText {
+    font-size: 15px;
+  }
+  .quadText {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .tertiaryText {
+    font-size: 30px;
+  }
+  .orangeText {
+    font-size: 17px;
+  }
+  .primaryText {
+    font-size: 16px;
+  }
+  .quadText {
+    font-size: 16px;
+  }
+}
