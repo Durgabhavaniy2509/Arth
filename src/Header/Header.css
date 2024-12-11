@@ -1,256 +1,115 @@
-/* .h-wrapper {
-  /* background: #BDFBB1; */
-  /* background-color: #e3f6f5; 
+/* Navbar Container */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   background-color: #4CAF50;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 100;
 }
-.h-container {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  font-size: 1.2rem;
+
+.navbar-container {
+  max-width: 1200px; 
+  margin: 0 auto;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.h-menu {
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
   gap: 2rem;
-}
-.h-menu > * {
-  color: white;
-  text-decoration: none;
-  position: relative;
-}
-
-.h-menu > *:hover {
-  cursor: pointer;
-  color: #FFD54F;
-}
-.h-menu >*:hover::after {
-  content: '';
-  width: 75%;
-  height: 2px;
-  background-color: #FFD54F;
-  position: absolute;
-  bottom: -4px;
-  left: 1px;
-  transition: 0.3s ease-in-out;
-}
-#mobile {
-  color: white;
-} */
-
-*{
+  list-style: none;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  transition: all 0.4s;
-  font-family: -apple-system,
-  BlinkMacSystemFont,
-  "Segoe UI",
-  Roboto,
-  Helvetica,
-  Arial,
-  sans-serif,
-  "Apple Color Emoji",
-  "Segoe UI Emoji",
-  "Segoe UI Symbol";
 }
 
-.navbar-container{
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-/* Navbar section */
-
-.nav{
-  width: 100%;
-  height: 65px;
-  position: fixed;
-  line-height: 65px;
-  text-align: center;
-  background-color: rgba(0,0,255,0.8);
-}
-
-.nav div.logo{
-  width: 180px;
-  height: 10px;
-  position: absolute;
-}
-
-.nav div.logo a{
+.nav-links a {
+  color: white;
   text-decoration: none;
-  color: #fff;
-  font-size: 1.8em;
-  text-transform: uppercase;
+  font-weight: 600;
+  transition: color 0.3s ease;
 }
 
-.nav div.logo a:hover {
-  color: #c0c0c0;
+.nav-links a:hover {
+  color: #FFD54F;
 }
 
-.nav div.main_list{
-  width: 600px;
-  height: 65px;
-  float: right;
-}
-
-.nav div.main_list ul{
-  width:100%;
-  height: 65px;
-  display: flex;
-  list-style: none;
-}
-
-.nav div.main_list ul li{
-  width: 120px;
-  height: 65px;
-}
-
-.nav div.main_list ul li a{
-  text-decoration: none;
-  color: #fff;
-  line-height: 65px;
-  text-transform: uppercase;
-}
-
-.nav div.main_list ul li a:hover{
-  color: #c0c0c0;
-}
-
-.nav div.media_button {
-  width: 40px;
-  height: 40px;
-  background-color: transparent;
-  position: absolute;
-  right: 15px;
-  top: 12px;
+/* Mobile Menu Button */
+.mobile-menu-button {
   display: none;
-}
-
-.nav div.media_button button.main_media_button {
-  width: 100%;
-  height: 100%;
-  background-color: transparent;;
-  outline: 0;
+  background: none;
   border: none;
+  padding: 0.5rem;
   cursor: pointer;
 }
 
-.nav div.media_button button.main_media_button span{
-  width: 98%;
-  height: 1px;
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 24px;
+  height: 20px;
+}
+
+.hamburger span {
   display: block;
-  background-color: #fff;
-  margin-top: 9px;
-  margin-bottom: 10px;
-}
-
-.nav div.media_button button.main_media_button:hover span:nth-of-type(1){
-  transform: rotateY(180deg);
-  transition: all 0.5s;
-  background-color: #c0c0c0;
-}
-
-.nav div.media_button button.main_media_button:hover span:nth-of-type(2){
-  transform: rotateY(180deg);
-  transition: all 0.4s;
-  background-color: #c0c0c0;
-}
-
-.nav div.media_button button.main_media_button:hover span:nth-of-type(3){
-  transform: rotateY(180deg);
-  transition: all 0.3s;
-  background-color: #c0c0c0;
-}
-
-.nav div.media_button button.active span:nth-of-type(1) {
-  transform: rotate3d(0, 0, 1, 45deg);
-  position: absolute;
-  margin: 0;
-}
-
-.nav div.media_button button.active span:nth-of-type(2) {
-  display: none;
-}
-
-.nav div.media_button button.active span:nth-of-type(3) {
-  transform: rotate3d(0, 0, 1, -45deg);
-  position: absolute;
-  margin: 0;
-}
-
-.nav div.media_button button.active:hover span:nth-of-type(1) {
-  transform: rotate3d(0, 0, 1, 20deg);
-}
-
-.nav div.media_button button.active:hover span:nth-of-type(3) {
-  transform: rotate3d(0, 0, 1, -20deg);
-}
-
-/* Home section */
-
-.home{
   width: 100%;
-  height: 100vh;
-  background-color: #ddd;
+  height: 2px;
+  background-color: white;
+  transition: all 0.3s ease;
 }
 
-/* Medai qurey section */
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  
-  .navbar-container{
-      margin: 0;
-  }
-  
+.hamburger.open span:nth-child(1) {
+  transform: translateY(9px) rotate(45deg);
 }
 
+.hamburger.open span:nth-child(2) {
+  opacity: 0;
+}
 
+.hamburger.open span:nth-child(3) {
+  transform: translateY(-9px) rotate(-45deg);
+}
 
+/* Mobile Menu */
+.mobile-menu {
+  display: none;
+  position: fixed;
+  top: 70px;
+  left: 0;
+  right: 0;
+  background-color: #4CAF50;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transform: translateY(-250%);
+  transition: transform 0.3s ease;
+}
 
-@media screen and (max-width:768px) {
-  
-  .navbar-container{
-      margin: 0;
+.mobile-menu.open {
+  transform: translateY(0);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .desktop-nav {
+    display: none;
   }
-  
-  .nav div.logo{
-      margin-left: 15px;
+
+  .mobile-menu-button {
+    display: block;
   }
-  
-  .nav div.main_list{
-      width: 100%;
-      margin-top: 65px;
-      height: 0px;
-      overflow: hidden;
+
+  .mobile-menu {
+    display: block;
   }
-  
-  .nav div.show_list{
-      height: 200px;
-  }
-  
-  .nav div.main_list ul{
-      flex-direction: column;
-      width: 100%;
-      height: 200px;
-      top: 80px;
-      right: 0;
-      left: 0;
-  }
-  
-  .nav div.main_list ul li{
-      width: 100%;
-      height: 40px;
-      background-color:rgba(0,0,255,0.8);
-  }
-  
-  .nav div.main_list ul li a{
+
+  .nav-links {
+    flex-direction: column;
+    gap: 1rem;
     text-align: center;
-      line-height: 40px;
-      width: 100%;
-      height: 40px;
-      display: table;
-  }
-  
-  .nav div.media_button{
-      display: block;
   }
 }

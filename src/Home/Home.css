@@ -35,6 +35,7 @@
 .hero-aboutUs {
    background-color: #f7f4e9; 
   /* background-color: 	#353935; */
+  margin-top: 80px;
 }
 .hero-left > img {
   width: 350px;
