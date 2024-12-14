@@ -39,9 +39,9 @@
   }
 }
 /* Journey section */
-/* .journey-section {
-  margin-bottom: 40px;
-} */
+.journey-section {
+  margin-top: 20px;
+} 
 
 /* Team */
 .management-section {
@@ -60,7 +60,6 @@
 }
 
 .section-title {
-  font-size: 1.875rem;
   font-weight: 700;
   margin-bottom: 1rem;
 }

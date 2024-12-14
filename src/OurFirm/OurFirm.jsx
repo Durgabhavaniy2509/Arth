@@ -6,12 +6,14 @@ import { MemberCard } from '../OurFirmComponents/Team'
 import Journey from '../OurFirmComponents/Journey'
 import '../OurFirmComponents/Team.css'
 import '../Home/Home.css'
+import Swiper2 from '../OurFirmComponents/Arth.jsx'
 
 const OurFirm = () => {
   return (
     // values
     <section className='our-firm'>
-      <div className='flexColCenter1 paddings innerWidth arth-values'>
+      <Swiper2/>
+      <div className='flexColCenter2 innerWidth arth-values'>
         {/* <div className="flexCenter arth-vandm">
           <img src="\Images\arth elements logo.avif" alt="" width={150}  className='gap'/>
           <div className='flexCenter2 vandm gap'>
@@ -24,7 +26,7 @@ const OurFirm = () => {
           </div>
         </div> */}
 
-        <div className=' flexColCenter1 values-heading'>
+        <div className=' flexColCenter1 paddings values-heading'>
           <div className='tertiaryText'>OUR CORE VALUES</div>
             <p className='quadText'>The principles that guide our journey and shape our culture</p>
         </div>
@@ -70,7 +72,7 @@ const OurFirm = () => {
       </div>
       {/* How we started */}
       <div className='flexColCenter1'>
-        <div className='tertiaryText journey-section'>HOW WE STARTED</div>
+        <div className='tertiaryText journey-section'>OUR JOURNEY</div>
         <div className='flexColCenter1' ><Journey/></div>
       </div>
       
