@@ -1,6 +1,16 @@
 /* about-arth */
+.home {
+  background-color: #f7f4e9; 
+ /* background-color: 	#353935; */
+ margin-top: 80px; 
+} 
+
 .main-head {
-  font-size: 3rem !important;
+  font-size: 3rem ;
+}
+
+.video-container {
+  position: relative;
 }
 .video {
   width: 600px;
@@ -11,8 +21,8 @@
 
 .play-button {
   position: absolute;
-  top: 35%;
-  left: 68.5%;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
@@ -31,14 +41,58 @@
 .play-button:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
-/* about us */
-.hero-aboutUs {
-   background-color: #f7f4e9; 
-  /* background-color: 	#353935; */
-  margin-top: 80px;
+@media screen and (max-width: 350px)  {
+  .about-arth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .video {
+    width: 250px;
+  }
+  .main-head {
+    font-size: 1.5rem !important;
+  }
 }
-.hero-left > img {
+@media (min-width: 351px) and (max-width: 401px)  {
+  .video {
+    width: 300px;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 481px)  {
+  .video {
+    width: 350px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px)  {
+  .video {
+    width: 450px;
+  }
+}
+@media (min-width: 768px) and (max-wdith: 1024px) {
+  .video {
+    width: 550px;
+  }
+}
+/* about us */
+
+.builing {
   width: 350px;
+}
+@media screen and (max-width: 376px) {
+  .building {
+    width: 200px;
+    height: 200px;
+  }
+  .hero-text {
+    line-height: 18px !important;
+  }
+  .aboutUs {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /* stats section */
@@ -51,9 +105,25 @@
   width: 75px;
 }
 .hero-text {
-  margin-top: 15px;
   line-height: 25px;
 }
+@media screen and (max-width: 376px) {
+  .hero-stat> img{
+    width: 45px;
+  }
+  .client-segments {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .client {
+    height: 280px !important;
+  }
+   
+}
+
+
 /* client segments */
 /* .client-proj {
   font-size: 1.2rem !important;
@@ -69,10 +139,10 @@
 }
 
 /* How we work section */
-.hero-pack> img, .hero-pack1>img {
+/* .hero-pack> img, .hero-pack1>img {
   width: 80px;
   height: 80px;
-}
+} */
 
 .hero-pack {
   /* background-color: #EAF1F1; */
@@ -81,31 +151,82 @@
   padding: 0.8rem;
   border-radius: 15px;
 }
-.hero-pack1 {
+/* .hero-pack1 {
   background-color: #e3f6f5;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 1.2rem 1.85rem;
   border-radius: 15px;
-}
+} */
 .row {
-  gap: 2rem;
-  margin-top: 20px;
+  gap: 1rem;
+  /* margin-top: 20px; */
 }
+.work-pack {
+  width: 125px;
+  height: 125px;
+  background-color: #e3f6f5;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+.customer-heading {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 376px) {
+  .hero-customers {
+    padding: 0 2rem;
+  }
+  .hero-work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .work-heading {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .work-right {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+  }
+  .customer-pack {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+   
+}
+
 /* .hero-pack, .hero-pack1 {
   margin-top: 25px;
 } */
 
 /* our customers section */
-.row {
-  display: flex;
-}
+
 .customer {
   background-color: #e3f6f5;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 125px;
   height: 125px;
   border-radius: 10px;
-  text-align: center; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+}
+.customer-text {
+  margin-top: 1rem;
 }
 
 /*testimonials*/
@@ -133,12 +254,10 @@
   border-radius: 15px;
   box-shadow: 0px 4px 6px #bebebe, -2px -2px 6px #ffffff;
   /* overflow: hidden; */
-  z-index: 1111;
+  /* z-index: 1111; */
 }
 
 .test-person {
-  font-size: 1.1rem;
-  font-weight: bold;
   margin-top: 10px;
 }
 .quote-icon {
@@ -165,8 +284,22 @@
   }
 
 }
+
+@media (min-width: 320px) and (max-width: 376px) {
+  .tests {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+  }
+  .test {
+    width: 250px;
+    height: 350px;
+  }
+}
 @media (min-width: 481px) and (max-width: 1024px) {
-  .hero-pack > img  {
+  .hero-pack > img {
     width: 40px;
     height: 40px;
   }

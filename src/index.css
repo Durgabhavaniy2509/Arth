@@ -35,6 +35,12 @@
   row-gap: 2rem;
   flex-wrap: wrap;
 }
+.flexCenter2 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
 
 .flexStart {
   display: flex;
@@ -76,6 +82,13 @@
   justify-content: center;
   align-items: center;
 }
+.flexColCenter3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
 .secondaryText {
   color: rgb(140, 139, 139);
   font-size: 0.9rem;
@@ -88,7 +101,6 @@
 }
 .primaryText {
   color: #1f3e72;
-  font-weight: bold;
   font-size: 1.5rem;
 }
 .tertiaryText {
@@ -107,6 +119,13 @@
 .text-bold {
   font-weight: bold;
   font-size: 1.1rem;
+}
+.bold {
+  font-weight: bold;
+}
+.imgText {
+  font-size: 14px;
+  color: black;
 }
 .add-soon {
   font-size: 2.25rem;
