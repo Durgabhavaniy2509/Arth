@@ -29,17 +29,25 @@
   flex-wrap: wrap;
 }
 
-.flexCenter1 {
+.flexCenter3 {
   display: flex;
   align-items: center;
   row-gap: 2rem;
   flex-wrap: wrap;
 }
-.flexCenter2 {
+.flexCenter4 {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   gap: 1rem;
+  justify-content: center;
+}
+.flexCenter5 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
 }
 
 .flexStart {
@@ -49,6 +57,9 @@
 }
 .paddings {
   padding: 1.5rem;
+}
+.paddings1 { 
+  padding: 0 2rem;
 }
 
 .innerWidth {

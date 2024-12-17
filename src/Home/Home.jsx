@@ -25,12 +25,12 @@ const Home = () => {
       {/* main section */}
       <div className='flexCenter1 paddings innerWidth about-arth'>
         <div className="primaryText video-info">
-          <div className="vision">To enable smarter and faster decisions for the built environment</div>
+          {/* <div className="vision">To enable smarter and faster decisions for the built environment</div> */}
           <div className="hero-left primaryText main-head bold">PIONEERING <br />
               TECHNOLOGY IN <br />CONSTRUCTION</div>
-          <div className="mission">
+          {/* <div className="mission">
             To provide data-driven digital solutions for the built environment.
-          </div>
+          </div> */}
           
         </div>
         {/* <div className="hero-left primaryText main-head">PIONEERING <br />
@@ -60,7 +60,7 @@ const Home = () => {
       </div>
 
       {/* Stat section */}
-      <div className = 'flexCenter2 hero-stats'>
+      <div className = 'flexCenter5 hero-stats'>
           <div className = 'flexColCenter3 hero-stat'>
             <img src="\Icons\completed-task.png" alt="" />
             <span className='orangeText'>
@@ -137,7 +137,7 @@ const Home = () => {
         </div>
       </div>
       {/* How we work section */}
-       <div className="flexCenter1 paddings innerWidth hero-work">
+       <div className="flexCenter1 paddings1 innerWidth hero-work">
         <div className='work-left'>
           <div className='tertiaryText work-heading'>HOW WE WORK</div>
           <div className='quadText hero-text'>Our teams enable you to unlock project success through well-established processes that emphasize collaboration and foresight. At Arth, we proactively manage every phase of the project by integrating our deep technical knowledge with modern tools and technologies. From early design validation to IoT integrations, our team facilitates seamless communication between all stakeholders, ensuring everyone is aligned. With us, you won’t just see results—you’ll experience a process that ensures continued efficiency and value, even beyond construction.</div>
@@ -163,10 +163,12 @@ const Home = () => {
             </div>
         </div>
       </div>
-      
-      {/* our customers section */}
-      <div className="innerWidth hero-customers">
-        <div className='tertiaryText customer-heading'>OUR CUSTOMERS</div>
+
+
+      <div className="flexCenter1 paddings innerWidth hero-work">
+        <div className='work-left'>
+          <div className='tertiaryText '>OUR CLIENT SEGMENTS</div>
+        </div>
         <div className='customer-pack'>
               <div className='imgText customer '>Design Consultants</div>
               <div className='imgText customer'>BIM Managers</div>
@@ -176,13 +178,15 @@ const Home = () => {
               <div className='imgText customer'>Developers /Owners</div>
         </div>
         <div className='hero-right'>
-          <div className='quadText hero-text customer-text'>At Arth, we’ve had the privilege of working alongside industry leaders and visionaries. Our customers include top-tier professionals.Each of these partners values our ability to implement efficient processes that mitigate risk, reduce costs, and drive project success.</div>
-          {/* <div className='quadText hero-text'>At Arth, we’ve had the privilege of working alongside industry leaders and visionaries. Our <br /> customers include top-tier professionals.Each of these partners values our ability to <br />implement efficient processes that mitigate risk, reduce costs, and drive project success.</div> */}
+          <div className='quadText hero-text'>At Arth, we’ve had the privilege of working alongside industry leaders and visionaries. Our customers include top-tier professionals.Each of these partners values our ability to implement efficient processes that mitigate risk, reduce costs, and drive project success.</div>
         </div>
       </div>
+    
   
-     <div className="paddings innerWidth testimonials">
+    <div className="flexCenter">
       <div className="tertiaryText">WHAT OUR CLIENTS SAY</div>
+    </div>
+     <div className="paddings1 innerWidth testimonials">
       <div className="tests">
         <div className='test'>
           <div className='quote-icon'>
