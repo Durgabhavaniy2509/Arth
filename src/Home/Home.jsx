@@ -48,11 +48,11 @@ const Home = () => {
         </div>
       </div>
       {/* About section */}
-      <div className=" flexCenter2 paddings innerWidth aboutUs">
-        <div className='hero-left'>
+      <div className=" flexCenter2 paddings innerWidth aboutUs arth">
+        <div className='hero-left arth-left'>
           <img src="\Images\Aqua Raffles hotel.avif" alt=""  className='building'/>
         </div>
-        <div className='hero-right flexCenter2'>
+        <div className='hero-right flexCenter2 arth-right'>
             <div className='tertiaryText'>ABOUT US</div>
             {/* <div className='quadText hero-text'>At Arth, we are committed to revolutionizing the construction industry by <br />focusing on process efficiency and collaborative problem-solving. Our teams <br />are driven by the belief that successful projects come from well-executed plans <br /> and transparent communication. Whether working on residential, commercial, or <br /> infrastructure projects, we empower our clients with innovative, data-driven <br />solutions that ensure seamless execution from start to finish. With a global <br /> presence and a passion for excellence, Arth is redefining the construction <br />landscape, one project at a time.</div> */}
             <div className='quadText hero-text'>At Arth, we are committed to revolutionizing the construction industry by focusing on process efficiency and collaborative problem-solving. Our teams are driven by the belief that successful projects come from well-executed plans and transparent communication. Whether working on residential, commercial, or infrastructure projects, we empower our clients with innovative, data-driven solutions that ensure seamless execution from start to finish. With a global presence and a passion for excellence, Arth is redefining the construction landscape, one project at a time.</div> 
@@ -63,24 +63,24 @@ const Home = () => {
       <div className = 'flexCenter5 hero-stats'>
           <div className = 'flexColCenter3 hero-stat'>
             <img src="\Icons\completed-task.png" alt="" />
-            <span className='orangeText'>
+            <span className='orangeText special-1'>
               <CountUp start= {250} end= {300} duration={3}/>+
             </span>
-            <span className='primaryText bold'>Projects</span>
+            <span className='primaryText bold special-2'>Projects</span>
           </div>
           <div className='flexColCenter3 hero-stat '>
             <img src="\Icons\rating.png" alt="" />
-            <span className='orangeText'>
+            <span className='orangeText special-1'>
               <CountUp start= {250} end= {300} duration={3}/>+
               </span>
-            <span className='primaryText bold'>Experts</span>
+            <span className='primaryText bold special-2'>Experts</span>
           </div>
           <div className='flexColCenter3 hero-stat'>
             <img src="\Icons\countries.png" alt="" />
-            <span className='orangeText'>
+            <span className='orangeText special-1'>
               <CountUp start= {3} end= {7} duration={3}/>
             </span>
-            <span className='primaryText bold'>Countries</span>
+            <span className='primaryText bold special-2'>Countries</span>
           </div>
        </div>
       
@@ -167,7 +167,7 @@ const Home = () => {
 
       <div className="flexCenter1 paddings innerWidth hero-work">
         <div className='work-left'>
-          <div className='tertiaryText '>OUR CLIENT SEGMENTS</div>
+          <div className='tertiaryText small-size'>OUR CLIENT SEGMENTS</div>
         </div>
         <div className='customer-pack'>
               <div className='imgText customer '>Design Consultants</div>
@@ -178,6 +178,7 @@ const Home = () => {
               <div className='imgText customer'>Developers /Owners</div>
         </div>
         <div className='hero-right'>
+        <div className='tertiaryText big-size'>OUR CLIENT SEGMENTS</div>
           <div className='quadText hero-text'>At Arth, we’ve had the privilege of working alongside industry leaders and visionaries. Our customers include top-tier professionals.Each of these partners values our ability to implement efficient processes that mitigate risk, reduce costs, and drive project success.</div>
         </div>
       </div>
