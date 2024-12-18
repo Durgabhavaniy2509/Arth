@@ -4,6 +4,7 @@ import CountUp from 'react-countup'
 import Arth from '../../Video/Arth.mp4';
 import { useState, useRef } from 'react';
 import Footer from '../Footer/Footer';
+import { motion } from "motion/react"
 
 const Home = () => {
   // const [videoSrc, setVideoSrc] = useState("Arth.mp4");
@@ -26,11 +27,19 @@ const Home = () => {
       <div className='flexCenter1 paddings innerWidth about-arth'>
         <div className="primaryText video-info">
           {/* <div className="vision">To enable smarter and faster decisions for the built environment</div> */}
+          <motion.div
+        className="primaryText video-info"
+        initial={{ opacity: 0, y: 50 }} // Start from invisible and moved down
+        whileInView={{ opacity: 1, y: 0 }} // Animate to visible and in position
+        transition={{ duration: 1, ease: "easeOut" }} // Smooth animation
+        viewport={{ once: true }} // Trigger animation once on scroll
+      >
           <div className="hero-left primaryText main-head bold">PIONEERING <br />
               TECHNOLOGY IN <br />CONSTRUCTION</div>
           {/* <div className="mission">
             To provide data-driven digital solutions for the built environment.
           </div> */}
+          </motion.div>
           
         </div>
         {/* <div className="hero-left primaryText main-head">PIONEERING <br />
@@ -54,7 +63,6 @@ const Home = () => {
         </div>
         <div className='hero-right flexCenter2 arth-right'>
             <div className='tertiaryText'>ABOUT US</div>
-            {/* <div className='quadText hero-text'>At Arth, we are committed to revolutionizing the construction industry by <br />focusing on process efficiency and collaborative problem-solving. Our teams <br />are driven by the belief that successful projects come from well-executed plans <br /> and transparent communication. Whether working on residential, commercial, or <br /> infrastructure projects, we empower our clients with innovative, data-driven <br />solutions that ensure seamless execution from start to finish. With a global <br /> presence and a passion for excellence, Arth is redefining the construction <br />landscape, one project at a time.</div> */}
             <div className='quadText hero-text'>At Arth, we are committed to revolutionizing the construction industry by focusing on process efficiency and collaborative problem-solving. Our teams are driven by the belief that successful projects come from well-executed plans and transparent communication. Whether working on residential, commercial, or infrastructure projects, we empower our clients with innovative, data-driven solutions that ensure seamless execution from start to finish. With a global presence and a passion for excellence, Arth is redefining the construction landscape, one project at a time.</div> 
         </div>
       </div>
