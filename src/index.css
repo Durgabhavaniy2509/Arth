@@ -49,6 +49,13 @@
   gap: 2rem;
   justify-content: center;
 }
+.flexCenter6 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  justify-content: center;
+}
 
 .flexStart {
   display: flex;
@@ -105,17 +112,49 @@
   font-size: 0.9rem;
   display: block;
 }
+.awesomeText {
+  /* background: linear-gradient(to right, #004e92, #0f574e);  
+  background: #00b09b;  fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: rgb(20,147,11);
+background: linear-gradient(153deg, rgba(20,147,11,1) 5%, rgba(150,201,61,1) 31%, rgba(181,186,45,1) 63%);
+  background-clip: text;
+  -webkit-background-clip: text; 
+  /* Makes gradient apply to text */
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
 .orangeText {
   color: orange;
   font-size: 2rem;
   font-weight: 600;
 }
 .primaryText {
-  color: #1f3e72;
+  /* color: #1f3e72; */
   font-size: 1.5rem;
 }
 .tertiaryText {
-  color: #27c47b;
+  /* color: #27c47b; */
+  /* color: #e35050; */
+  /* background: #360033;  fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 
+background: linear-gradient(to right, #0b8793, #360033); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* background: linear-gradient(109deg, rgba(20,147,11,1) 0%, rgba(36,57,92,1) 44%, rgba(54,0,51,1) 66%);
+background: #1FA2FF;  /* fallback for old browsers */
+/* background: -webkit-linear-gradient(to top, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6  */
+/* background: linear-gradient(to top, #A6FFCB, #12D8FA, #1FA2FF);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
+background: #59C173;   fallback for old browsers 
+background: -webkit-linear-gradient(to right, #5D26C1, #a17fe0, #59C173);  Chrome 10-25, Safari 5.1-6  */
+background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+/* background: rgb(20,147,11); */
+
+background-clip: text;
+  -webkit-background-clip: text; 
+  /* Makes gradient apply to text */
+  -webkit-text-fill-color: transparent;
+  color: transparent;
   font-weight: bold;
   font-size: 2rem;
 }

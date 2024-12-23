@@ -1,6 +1,7 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import './Arth.css';
+import { motion } from 'motion/react';
 
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
@@ -22,10 +23,22 @@ import slide_image_11 from '/Images/Arthians/Arth (12).jpeg';
 import slide_image_12 from '/Images/Arthians/Arth (12).jpeg';
 
 const Swiper2 = () => {
+  const imageVariants = {
+    hidden: { opacity: 0, x: 20 },
+    visible: {
+      opacity: 1,
+      x: 0,
+      transition: {
+        duration: 1,
+        ease: "easeInOut"
+      }
+    }
+  };
   return (
       <div className="slider-container">
         {/* <h1 className="heading">Moments That Define Us</h1> */}
-        <div className="tertiaryText flexColCenter1 paddings innerWidth arth-heading">OUR PEOPLE, OUR CULTURE</div>
+        <motion.div variants={imageVariants} initial="hidden"
+            whileInView="visible" viewport = { {once: true }} className="tertiaryText flexColCenter1 paddings innerWidth arth-heading">OUR PEOPLE, OUR CULTURE</motion.div>
         <Swiper
           effect={'coverflow'}
           grabCursor={true}

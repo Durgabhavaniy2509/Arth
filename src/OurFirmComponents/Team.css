@@ -30,7 +30,11 @@
   right: 0;
   padding: 1.5rem;
   background: linear-gradient(to top, rgba(97, 50, 50, 0.8), transparent);
-  color: white;
+  background: linear-gradient(to top, #2abb34, transparent);
+/* background: linear-gradient(153deg, rgba(42,187,52,1) 0%, rgba(190,244,193,1) 45%, transparent); */
+
+  /* color: white; */
+  color: #f2fcf1;
 }
 .member-icon {
   display: flex;
@@ -50,12 +54,14 @@
 
 .member-designation {
   font-size: 0.875rem;
-  color: #e5e7eb;
+  /* color: #e5e7eb; */
+  color: yellow;
 }
 
 /* Modal styles */
 .modal-image {
   width: 250px;
+  padding: 1rem;
 }
 .modal-overlay {
   position: fixed;

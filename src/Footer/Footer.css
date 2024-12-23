@@ -1,8 +1,9 @@
 .footer {
   /* background-color: #272343; */
-  background-color: #1B4D36;
+  /* background-color: #1B4D36; */
+  background: rgb(71,189,85);
+  background: linear-gradient(151deg, rgba(71,189,85,1) 58%, rgba(128,245,141,1) 100%);
 }
-
 
 .footer-info {
   width: 200px;

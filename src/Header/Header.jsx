@@ -12,7 +12,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-brand">
-          <a href="/Home" className="logo">< img src="\Images\Arth.webp" alt="" width={100} /></a>
+          <a href="/Home" className="logo">< img src="\Images\Arth.webp" alt="" width={80} /></a>
         </div>
 
         {/* Desktop Navigation */}
@@ -36,7 +36,6 @@ function Navbar() {
         </button>
 
         {/* Mobile Navigation */}
-
           <div className={`mobile-menu ${isOpen ? 'open' : ''}`}>
             <div className="mobile-menu-content">
                 <ul className="nav-links">
