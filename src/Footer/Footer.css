@@ -28,7 +28,8 @@
     width: 300px;
   }
   .footer-head {
-    justify-content: center !important;
+    /* justify-content: center !important; */
+    justify-content: start;
   }
 }
 
