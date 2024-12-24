@@ -175,7 +175,7 @@ const Home = () => {
         <div className='hero-left arth-left'>
           <motion.img variants={imageVariants} initial="hidden"
             whileInView="visible" viewport = { {once: true }}
-            src="/Images/Aqua Raffles hotel.avif" alt=""  className='building'/>
+            src="../Images/Aqua Raffles hotel.avif" alt=""  className='building'/>
         </div>
         <div className='hero-right flexCenter2 arth-right'>
             <motion.div 
