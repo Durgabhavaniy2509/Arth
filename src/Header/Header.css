@@ -17,7 +17,7 @@
 .navbar-container {
   max-width: 1200px; 
   margin: 0 auto;
-  padding: 1rem;
+  padding: 0.25rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -40,8 +40,6 @@
   font-weight: 600;
   transition: color 0.3s ease;
 }
-
-
 
 /* Mobile Menu Button */
 .mobile-menu-button {
@@ -99,6 +97,7 @@
 .mobile-menu.open {
   transform: translateY(0);
 }
+
 .nav-links a:hover {
   color: #FFD54F;
 }

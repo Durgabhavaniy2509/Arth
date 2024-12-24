@@ -248,8 +248,8 @@ body {
     width: 100%;
     /* padding-left: 120px;
     padding-right: 30px; */
-    padding-left: 70px;
-    padding-right: 0px;
+    padding-left: 65px;
+    padding-right: 5px;
   }
 
   .container.right {
@@ -279,7 +279,7 @@ body {
   .container.left .icon,
   .container.right .icon {
     right: auto; 
-    left: 75px;
+    left: 70px;
   }
 
   .container.left .content,

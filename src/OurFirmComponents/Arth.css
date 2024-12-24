@@ -194,7 +194,7 @@
 
 @media (max-width: 451px) {
   .slider-controler .swiper-button-next {
-    left: 90% !important;
+    left: 95% !important;
     transform: translateX(-90%) !important;
   }
   .slider-controler .swiper-button-prev {
