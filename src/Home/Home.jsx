@@ -175,7 +175,7 @@ const Home = () => {
         <div className='hero-left arth-left'>
           <motion.img variants={imageVariants} initial="hidden"
             whileInView="visible" viewport = { {once: true }}
-            src="\Images\Aqua Raffles hotel.avif" alt=""  className='building'/>
+            src="../Images/Aqua Raffles hotel.avif" alt=""  className='building'/>
         </div>
         <div className='hero-right flexCenter2 arth-right'>
             <motion.div 
@@ -191,7 +191,7 @@ const Home = () => {
       {/* Stat section */}
       <div className = 'flexCenter6 hero-stats'>
           <div className = 'flexColCenter3 hero-stat'>
-            <img src="\Icons\completed-task.png" alt="" />
+            <img src="/Icons/completed-task.png" alt="" />
             <div className='orangeText special-1 flexCenter3'>
             <motion.span variants={fadeIn} ref={ref}>{roundedCount}
             </motion.span>
@@ -202,7 +202,7 @@ const Home = () => {
             <span className='primaryText bold special-2'>Projects</span>
           </div>
           <div className='flexColCenter3 hero-stat '>
-            <img src="\Icons\rating.png" alt="" />
+            <img src="/Icons/rating.png" alt="" />
             <div className='orangeText special-1 flexCenter3'>
             <motion.span variants={fadeIn} ref={ref}>{roundedCount}
             </motion.span>
@@ -211,7 +211,7 @@ const Home = () => {
             <span className='primaryText bold special-2'>Experts</span>
           </div>
           <div className='flexColCenter3 hero-stat'>
-            <img src="\Icons\countries.png" alt="" />
+            <img src="/Icons/countries.png" alt="" />
             <div className='orangeText special-1 flexCenter3'>
             <motion.span variants={fadeIn} ref={ref}>{roundedCount1}
             </motion.span>
@@ -234,7 +234,7 @@ const Home = () => {
              className="client-segments">
             <motion.div variants={cardReveal} initial="hidden"
             whileInView="visible" viewport = { {once: true }} className='flexColCenter1 hero-stat hero-pack client'>
-              <img src="\Icons\train.png" alt="" />
+              <img src="/Icons/train.png" alt="" />
               <span className='orangeText client-proj'>
                 Infrastructure
                 </span>
@@ -242,7 +242,7 @@ const Home = () => {
             </motion.div>
             <motion.div variants={cardReveal} initial="hidden"
             whileInView="visible" viewport = { {once: true }} className='flexColCenter1 hero-stat hero-pack client'>
-              <img src="\Icons\apartment.png" alt="" />
+              <img src="/Icons/apartment.png" alt="" />
               <span className='orangeText client-proj'>
                 High Rise Residential
                 </span>
@@ -250,7 +250,7 @@ const Home = () => {
             </motion.div>
             <motion.div variants={cardReveal} initial="hidden"
             whileInView="visible" viewport = { {once: true }} className='flexColCenter1 hero-stat hero-pack client'>
-              <img src="\Icons\airport.png" alt="" />
+              <img src="/Icons/airport.png" alt="" />
               <span className='orangeText client-proj'>
                 Airports
                 </span>
@@ -259,7 +259,7 @@ const Home = () => {
 
             <motion.div variants={cardReveal} initial="hidden"
             whileInView="visible" viewport = { {once: true }} className='flexColCenter1 hero-stat hero-pack client'>
-              <img src="\Icons\factory.png" alt="" />
+              <img src="/Icons/factory.png" alt="" />
               <span className='orangeText client-proj'>
                 Commercial
                 </span>
@@ -267,7 +267,7 @@ const Home = () => {
             </motion.div>
             <motion.div variants={cardReveal} initial="hidden"
             whileInView="visible" viewport = { {once: true }} className='flexColCenter1 hero-stat hero-pack client'>
-              <img src="\Icons\hospital.png" alt="" />
+              <img src="/Icons/hospital.png" alt="" />
               <span className='orangeText client-proj'>
                 Health & Recreational
                 </span>
@@ -275,7 +275,7 @@ const Home = () => {
             </motion.div>
             <motion.div variants={cardReveal} initial="hidden"
             whileInView="visible" viewport = { {once: true }} className='flexColCenter1 hero-stat hero-pack client'>
-              <img src="\Icons\electric-factory.png" alt="" />
+              <img src="/Icons/electric-factory.png" alt="" />
               <span className='orangeText client-proj'>
                 Plants & Sub-stations
                 </span>
@@ -297,25 +297,25 @@ const Home = () => {
         <div className='work-right'>
             <div className='flexColCenter3 work-pack'>
               <motion.img variants={imgVariants} initial="hidden"
-            whileInView="visible" viewport = { {once: true }} src="\Icons\Conceptualize.png" alt="" width={35}/>
+            whileInView="visible" viewport = { {once: true }} src="/Icons/Conceptualize.png" alt="" width={35}/>
               <motion.span variants={imgVariants} initial="hidden"
             whileInView="visible" viewport = { {once: true }} className='imgText'>Conceptualize</motion.span>
             </div>
             <div className='flexColCenter3 work-pack'>
               <motion.img variants={imgVariants} initial="hidden"
-            whileInView="visible" viewport = { {once: true }} src="\Icons\Exploring Ideas.png" alt="" width={35}/>
+            whileInView="visible" viewport = { {once: true }} src="/Icons/Exploring Ideas.png" alt="" width={35}/>
               <motion.span variants={imgVariants} initial="hidden"
             whileInView="visible" viewport = { {once: true }} className='imgText'>Exploring Ideas</motion.span>
             </div>
             <div className='flexColCenter3 work-pack'>
               <motion.img variants={imgVariants} initial="hidden"
-            whileInView="visible" viewport = { {once: true }} src="\Icons\Integration.png" alt="" width={35}/>
+            whileInView="visible" viewport = { {once: true }} src="/Icons/Integration.png" alt="" width={35}/>
               <motion.span variants={imgVariants} initial="hidden"
             whileInView="visible" viewport = { {once: true }} className='imgText'>Integration</motion.span>
             </div>
             <div className='flexColCenter3 work-pack'>
               <motion.img variants={imgVariants} initial="hidden"
-            whileInView="visible" viewport = { {once: true }} src="\Icons\Implementation.png" alt="" width={35}/>
+            whileInView="visible" viewport = { {once: true }} src="/Icons/Implementation.png" alt="" width={35}/>
               <motion.span variants={imgVariants} initial="hidden"
             whileInView="visible" viewport = { {once: true }} className='imgText'>Implementation</motion.span>
             </div>
@@ -356,7 +356,7 @@ const Home = () => {
         <motion.div variants={cardReveal} initial="hidden"
           whileInView="visible" viewport = { {once: true }} className='test'>
           <div className='quote-icon'>
-            <img src="\Icons\quote.png" alt="" width={30}/>
+            <img src="/Icons/quote.png" alt="" width={30}/>
           </div>
           <div className='imgText'>All departments and teams used to have their own information source and started over creating their own models, instead of reusing the information from other departments. With BIM we can see departments integrating, consulting each other and really collaborating. Arth has done a great job in making our process a really efficient one.</div>
           <div className='imgText text-bold test-person'>- Gunesh Joshi, <br /> Senior Associate Director - CBRE</div>
@@ -366,7 +366,7 @@ const Home = () => {
           whileInView="visible" viewport = { {once: true }}
           className='test'>
           <div className='quote-icon'>
-            <img src="\Icons\quote.png" alt="" width={30}/>
+            <img src="/Icons/quote.png" alt="" width={30}/>
           </div>
           <div className='imgText'>The attention to detail and quality that Arth has shown is really great. It is always a pleasure working with a driven, energetic and smart team like Arth's.</div>
           <div className='imgText text-bold test-person'>- Barclays Global <br /> Design Head</div>
@@ -377,7 +377,7 @@ const Home = () => {
           whileInView="visible" viewport = { {once: true }}
           className='test'>
           <div className='quote-icon'>
-            <img src="\Icons\quote.png" alt="" width={30}/>
+            <img src="/Icons/quote.png" alt="" width={30}/>
           </div>
           <div className='imgText'>Digitizing the construction documentation and monitoring has helped the TPL team improve on-site efficiency. Quantification accuracy and progress tracking has also helped to procure JIT and eased bill verification. A Big Cheers to Arth team. We wish them the best on digitizing the Construction Industry.</div>
           <div className='imgText text-bold test-person'>- Mridul T, <br /> Head - TATA Projects Ltd. - Quality Services division</div>
