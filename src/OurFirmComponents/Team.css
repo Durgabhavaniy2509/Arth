@@ -133,6 +133,9 @@
    .modal-image {
     display: none;
    }
+   .modal-name {
+    font-size: 1.25rem;
+   }
 }
 
 @media (min-width: 768px) {
