@@ -134,7 +134,7 @@
     display: none;
    }
    .modal-name {
-    font-size: 1.25rem;
+    font-size: 1.25rem !important;
    }
 }
 
